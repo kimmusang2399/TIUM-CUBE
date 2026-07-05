@@ -190,16 +190,18 @@ p {
 
 h1 {
   margin-bottom: 24px;
-  font-size: clamp(42px, 4.35vw, 58px);
+  max-width: 720px;
+  font-size: clamp(38px, 3.85vw, 52px);
   line-height: 1.16;
   letter-spacing: 0;
 }
 
 h1 span {
   display: block;
+  white-space: nowrap;
 }
 
-h1 span:last-child {
+h1 em {
   white-space: nowrap;
 }
 
@@ -856,7 +858,7 @@ h3 {
     font-size: 36px;
   }
 
-  h1 span:last-child {
+  h1 span {
     white-space: normal;
   }
 
